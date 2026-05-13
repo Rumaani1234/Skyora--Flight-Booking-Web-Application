@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --primary-color: #3d5cb8;
+  --primary-color-dark: #334c99;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --extra-light: #f1f5f9;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: var(--text-dark);
+  text-align: center;
+}
+.section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.section__header {
+  margin-left: -85px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px; /* Gap between heading and paragraph */
+}
+
+.section__description {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+ .btn {
+  background-color: white;
+  color: #007BFF; /* Bootstrap Blue or choose any shade of blue */
+  border: 2px solid #007BFF;
+  border-radius: 999px; /* fully rounded (pill style) */
+  padding: 10px 24px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+ .header__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap; /* responsive ke liye */
+}
+
+.header__left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.header__right {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  justify-content: center;
+}
+
+.header__right img {
+  max-width: 100%;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: block;
+}
+
+
+.section-container {
+  padding: 60px 20px;
+  margin-top:50px;
+  background-color: #f9f9f9;
+}
+
+.explore-btn {
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 10px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #3498db, #6dd5fa);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.explore-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(to right, #2980b9, #56c7f5);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.flight-filter {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 8px 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: 0.3s;
+  width: 250px;
+}
+
+.filter-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #555;
+}
+
+.filter-select {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  width: 100%;
+  cursor: pointer;
+  appearance: none;
+}
+
+.clear-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #888;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.clear-btn:hover {
+  color: #e74c3c;
+}
+
+/* Wrap the button in a container */
+.signup-btn-container {
+  position: relative;
+  margin-right: 16px; /* 👈 Adds space to the right */
+  display: inline-block;
+}
+
+/* Original Button Style */
+.btn {
+  padding: 8px 20px;
+  border: 2px solid #32cd32; /* Light Green */
+  color: #32cd32;
+  background-color: transparent;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover effects */
+.btn:hover {
+  background-color: #32cd3210;
+  box-shadow: 0 0 8px #32cd32;
+}
+
+/* Hover Text */
+.signup-btn-container::after {
+  content: "show";
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #32cd32;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show on hover */
+.signup-btn-container:hover::after {
+  opacity: 1;
+}
+
+
+
+/* Centered heading */
+.section-subheader,
+.section-header {
+  text-align: center;
+}
+
+.section-subheader {
+  color: #007BFF;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.section-header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+/* Wrapper to split content and image */
+.plan-section-with-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+/* Left Side Content */
+.plan-content {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+}
+
+/* Grid Inside Content */
+.plan-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .plan-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Each Grid Item */
+.plan-item {
+  background-color: white;
+  padding: 16px 20px;          /* ↓ padding kam kiya for less height */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  max-width: 100%;             /* full responsive width */
+  min-width: 260px;
+}
+
+
+.plan-number {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 8px;
+}
+
+/* Right Side Image */
+
+
+
+/* Wrapper to make content and image side-by-side */
+.plan-flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Grid stays same */
+.plan-grid {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Image side */
+.plan-image {
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plan-image img {
+  width: 200px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 50% / 45%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.plan-image img:hover {
+  transform: scale(1.05);
+}
+

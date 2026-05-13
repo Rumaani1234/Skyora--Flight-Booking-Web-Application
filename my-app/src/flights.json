@@ -1,0 +1,663 @@
+[
+  {
+    "flightNumber": "AI202",
+    "airline": "Air India",
+    "departure": { "city": "Bhopal", "time": "06:30", "airport": "Raja Bhoj Airport", "date": "2025-07-20" },
+    "arrival":   { "city": "Mumbai", "time": "08:35", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 5m", "rating": 4.5,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4300 } } }
+  },
+  {
+    "flightNumber": "6E525",
+    "airline": "IndiGo",
+    "departure": { "city": "Bhopal", "time": "09:20", "airport": "Raja Bhoj Airport", "date": "2025-07-20" },
+    "arrival":   { "city": "Mumbai", "time": "11:30", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 10m", "rating": 4.3,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4150 } } }
+  },
+  {
+    "flightNumber": "UK310",
+    "airline": "Vistara",
+    "departure": { "city": "Bhopal", "time": "12:00", "airport": "Raja Bhoj Airport", "date": "2025-07-20" },
+    "arrival":   { "city": "Mumbai", "time": "14:20", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 20m", "rating": 4.4,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4450 } } }
+  },
+  {
+    "flightNumber": "AI204",
+    "airline": "Air India",
+    "departure": { "city": "Bhopal", "time": "15:45", "airport": "Raja Bhoj Airport", "date": "2025-07-20" },
+    "arrival":   { "city": "Mumbai", "time": "18:00", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 15m", "rating": 4.2,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4600 } } }
+  },
+  {
+    "flightNumber": "6E307",
+    "airline": "IndiGo",
+    "departure": { "city": "Bhopal", "time": "19:05", "airport": "Raja Bhoj Airport", "date": "2025-07-20" },
+    "arrival":   { "city": "Mumbai", "time": "21:15", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 10m", "rating": 4.1,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4200 } } }
+  },
+  {
+    "flightNumber": "UK610",
+    "airline": "Vistara",
+    "departure": { "city": "Indore", "time": "07:50", "airport": "Devi Ahilya Bai Holkar Airport", "date": "2025-07-21" },
+    "arrival":   { "city": "Hyderabad", "time": "10:35", "airport": "Rajiv Gandhi International Airport" },
+    "duration": "2h 45m", "rating": 4.4,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4800 } } }
+  },
+  {
+    "flightNumber": "AI409",
+    "airline": "Air India",
+    "departure": { "city": "Indore", "time": "10:30", "airport": "Devi Ahilya Bai Holkar Airport", "date": "2025-07-21" },
+    "arrival":   { "city": "Hyderabad", "time": "13:15", "airport": "Rajiv Gandhi International Airport" },
+    "duration": "2h 45m", "rating": 4.2,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4700 } } }
+  },
+  {
+    "flightNumber": "6E611",
+    "airline": "IndiGo",
+    "departure": { "city": "Indore", "time": "14:00", "airport": "Devi Ahilya Bai Holkar Airport", "date": "2025-07-21" },
+    "arrival":   { "city": "Hyderabad", "time": "16:45", "airport": "Rajiv Gandhi International Airport" },
+    "duration": "2h 45m", "rating": 4.1,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4600 } } }
+  },
+  {
+    "flightNumber": "UK612",
+    "airline": "Vistara",
+    "departure": { "city": "Indore", "time": "18:20", "airport": "Devi Ahilya Bai Holkar Airport", "date": "2025-07-21" },
+    "arrival":   { "city": "Hyderabad", "time": "21:05", "airport": "Rajiv Gandhi International Airport" },
+    "duration": "2h 45m", "rating": 4.3,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 5000 } } }
+  },
+  {
+    "flightNumber": "SG324",
+    "airline": "SpiceJet",
+    "departure": { "city": "Pune", "time": "06:00", "airport": "Pune Airport", "date": "2025-07-24" },
+    "arrival":   { "city": "Delhi", "time": "08:30", "airport": "IGI Airport" },
+    "duration": "2h 30m", "rating": 4.0,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4600 } } }
+  },
+  {
+    "flightNumber": "6E567",
+    "airline": "IndiGo",
+    "departure": { "city": "Ahmedabad", "time": "07:45", "airport": "Sardar Vallabhbhai Patel Airport", "date": "2025-07-24" },
+    "arrival":   { "city": "Goa", "time": "10:00", "airport": "Dabolim Airport" },
+    "duration": "2h 15m", "rating": 4.1,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4300 } } }
+  },
+  {
+    "flightNumber": "AI678",
+    "airline": "Air India",
+    "departure": { "city": "Jaipur", "time": "09:10", "airport": "Jaipur International Airport", "date": "2025-07-24" },
+    "arrival":   { "city": "Lucknow", "time": "11:00", "airport": "Chaudhary Charan Singh Airport" },
+    "duration": "1h 50m", "rating": 4.3,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 3950 } } }
+  },
+  {
+    "flightNumber": "UK920",
+    "airline": "Vistara",
+    "departure": { "city": "Chandigarh", "time": "13:00", "airport": "Shaheed Bhagat Singh Airport", "date": "2025-07-24" },
+    "arrival":   { "city": "Mumbai", "time": "15:25", "airport": "Chhatrapati Shivaji International" },
+    "duration": "2h 25m", "rating": 4.4,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 5100 } } }
+  },
+  {
+    "flightNumber": "6E141",
+    "airline": "IndiGo",
+    "departure": { "city": "Hyderabad", "time": "17:30", "airport": "Rajiv Gandhi International Airport", "date": "2025-07-24" },
+    "arrival":   { "city": "Nagpur", "time": "19:00", "airport": "Dr. Babasaheb Ambedkar International Airport" },
+    "duration": "1h 30m", "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 3900 } } }
+  },
+
+  
+  {
+    "flightNumber": "6E612",
+    "airline": "IndiGo",
+    "departure": { "city": "Goa", "time": "06:15", "airport": "Dabolim Airport", "date": "2025-07-26" },
+    "arrival": { "city": "Ahmedabad", "time": "08:30", "airport": "Sardar Vallabhbhai Patel Airport" },
+    "duration": "2h 15m", "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4350 } } }
+  },
+  {
+    "flightNumber": "AI788",
+    "airline": "Air India",
+    "departure": { "city": "Goa", "time": "08:45", "airport": "Dabolim Airport", "date": "2025-07-26" },
+    "arrival": { "city": "Ahmedabad", "time": "11:00", "airport": "Sardar Vallabhbhai Patel Airport" },
+    "duration": "2h 15m", "rating": 4.3,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4500 } } }
+  },
+  {
+    "flightNumber": "UK334",
+    "airline": "Vistara",
+    "departure": { "city": "Goa", "time": "11:30", "airport": "Dabolim Airport", "date": "2025-07-26" },
+    "arrival": { "city": "Ahmedabad", "time": "13:50", "airport": "Sardar Vallabhbhai Patel Airport" },
+    "duration": "2h 20m", "rating": 4.4,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4600 } } }
+  },
+  {
+    "flightNumber": "SG216",
+    "airline": "SpiceJet",
+    "departure": { "city": "Goa", "time": "14:10", "airport": "Dabolim Airport", "date": "2025-07-26" },
+    "arrival": { "city": "Ahmedabad", "time": "16:25", "airport": "Sardar Vallabhbhai Patel Airport" },
+    "duration": "2h 15m", "rating": 4.0,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4250 } } }
+  },
+  {
+    "flightNumber": "G8201",
+    "airline": "Go First",
+    "departure": { "city": "Goa", "time": "18:00", "airport": "Dabolim Airport", "date": "2025-07-26" },
+    "arrival": { "city": "Ahmedabad", "time": "20:15", "airport": "Sardar Vallabhbhai Patel Airport" },
+    "duration": "2h 15m", "rating": 4.1,
+    "image": "/assets/gofirst.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4400 } } }
+  },
+  {
+    "flightNumber": "6E2110",
+    "airline": "IndiGo",
+    "departure": { "city": "Nagpur", "time": "06:20", "airport": "Dr. Babasaheb Ambedkar International Airport", "date": "2025-07-26" },
+    "arrival":   { "city": "Pune", "time": "08:00", "airport": "Pune Airport" },
+    "duration": "1h 40m", "rating": 4.3,
+    "image": "/assets/indigo.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 3900 } } }
+  },
+  {
+    "flightNumber": "AI241",
+    "airline": "Air India",
+    "departure": { "city": "Nagpur", "time": "09:00", "airport": "Dr. Babasaheb Ambedkar International Airport", "date": "2025-07-26" },
+    "arrival":   { "city": "Pune", "time": "10:40", "airport": "Pune Airport" },
+    "duration": "1h 40m", "rating": 4.4,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4100 } } }
+  },
+  {
+    "flightNumber": "UK532",
+    "airline": "Vistara",
+    "departure": { "city": "Nagpur", "time": "12:15", "airport": "Dr. Babasaheb Ambedkar International Airport", "date": "2025-07-26" },
+    "arrival":   { "city": "Pune", "time": "13:55", "airport": "Pune Airport" },
+    "duration": "1h 40m", "rating": 4.5,
+    "image": "/assets/vistara.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4200 } } }
+  },
+  {
+    "flightNumber": "SG509",
+    "airline": "SpiceJet",
+    "departure": { "city": "Nagpur", "time": "15:30", "airport": "Dr. Babasaheb Ambedkar International Airport", "date": "2025-07-26" },
+    "arrival":   { "city": "Pune", "time": "17:10", "airport": "Pune Airport" },
+    "duration": "1h 40m", "rating": 4.2,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 4000 } } }
+  },
+  {
+    "flightNumber": "G8250",
+    "airline": "Go First",
+    "departure": { "city": "Nagpur", "time": "19:00", "airport": "Dr. Babasaheb Ambedkar International Airport", "date": "2025-07-26" },
+    "arrival":   { "city": "Pune", "time": "20:40", "airport": "Pune Airport" },
+    "duration": "1h 40m", "rating": 4.1,
+    "image": "/assets/gofirst.jpg",
+    "classStatus": { "economy": { "class": "Economy", "price": { "currency": "INR", "amount": 3950 } } }
+  },
+  
+  {
+    "flightNumber": "6E263",
+    "airline": "IndiGo",
+    "departure": {
+      "city": "Hyderabad",
+      "time": "06:00",
+      "airport": "Rajiv Gandhi International Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Bhopal",
+      "time": "08:18",
+      "airport": "Raja Bhoj Airport"
+    },
+    "duration": "2h 18m",
+    "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4512
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "AI637",
+    "airline": "Air India",
+    "departure": {
+      "city": "Hyderabad",
+      "time": "08:00",
+      "airport": "Rajiv Gandhi International Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Bhopal",
+      "time": "10:14",
+      "airport": "Raja Bhoj Airport"
+    },
+    "duration": "2h 14m",
+    "rating": 4.4,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4526
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "UK299",
+    "airline": "Vistara",
+    "departure": {
+      "city": "Hyderabad",
+      "time": "10:00",
+      "airport": "Rajiv Gandhi International Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Bhopal",
+      "time": "12:18",
+      "airport": "Raja Bhoj Airport"
+    },
+    "duration": "2h 18m",
+    "rating": 4.5,
+    "image": "/assets/vistara.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4625
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "SG326",
+    "airline": "SpiceJet",
+    "departure": {
+      "city": "Hyderabad",
+      "time": "12:00",
+      "airport": "Rajiv Gandhi International Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Bhopal",
+      "time": "14:18",
+      "airport": "Raja Bhoj Airport"
+    },
+    "duration": "2h 18m",
+    "rating": 4.1,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4097
+        }
+      }
+    }
+  },
+  
+  {
+    "flightNumber": "6E499",
+    "airline": "IndiGo",
+    "departure": {
+      "city": "Indore",
+      "time": "06:00",
+      "airport": "Devi Ahilya Bai Holkar Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Pune",
+      "time": "08:11",
+      "airport": "Pune Airport"
+    },
+    "duration": "2h 11m",
+    "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 3918
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "AI102",
+    "airline": "Air India",
+    "departure": {
+      "city": "Indore",
+      "time": "08:00",
+      "airport": "Devi Ahilya Bai Holkar Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Pune",
+      "time": "10:15",
+      "airport": "Pune Airport"
+    },
+    "duration": "2h 15m",
+    "rating": 4.4,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4280
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "UK610",
+    "airline": "Vistara",
+    "departure": {
+      "city": "Indore",
+      "time": "10:00",
+      "airport": "Devi Ahilya Bai Holkar Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Pune",
+      "time": "12:14",
+      "airport": "Pune Airport"
+    },
+    "duration": "2h 14m",
+    "rating": 4.5,
+    "image": "/assets/vistara.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4405
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "SG212",
+    "airline": "SpiceJet",
+    "departure": {
+      "city": "Indore",
+      "time": "12:00",
+      "airport": "Devi Ahilya Bai Holkar Airport",
+      "date": "2025-07-25"
+    },
+    "arrival": {
+      "city": "Pune",
+      "time": "14:20",
+      "airport": "Pune Airport"
+    },
+    "duration": "2h 20m",
+    "rating": 4.1,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4020
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "6E851",
+    "airline": "IndiGo",
+    "departure": {
+      "city": "Surat",
+      "time": "07:10",
+      "airport": "Surat International Airport",
+      "date": "2025-07-27"
+    },
+    "arrival": {
+      "city": "Bhubaneswar",
+      "time": "09:45",
+      "airport": "Biju Patnaik International Airport"
+    },
+    "duration": "2h 35m",
+    "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4700
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "AI715",
+    "airline": "Air India",
+    "departure": {
+      "city": "Raipur",
+      "time": "08:00",
+      "airport": "Swami Vivekananda Airport",
+      "date": "2025-07-27"
+    },
+    "arrival": {
+      "city": "Varanasi",
+      "time": "09:30",
+      "airport": "Lal Bahadur Shastri Airport"
+    },
+    "duration": "1h 30m",
+    "rating": 4.3,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 3950
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "UK751",
+    "airline": "Vistara",
+    "departure": {
+      "city": "Ranchi",
+      "time": "06:45",
+      "airport": "Birsa Munda Airport",
+      "date": "2025-07-27"
+    },
+    "arrival": {
+      "city": "Coimbatore",
+      "time": "09:40",
+      "airport": "Coimbatore International Airport"
+    },
+    "duration": "2h 55m",
+    "rating": 4.4,
+    "image": "/assets/vistara.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 5050
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "SG142",
+    "airline": "SpiceJet",
+    "departure": {
+      "city": "Guwahati",
+      "time": "14:20",
+      "airport": "Lokpriya Gopinath Bordoloi Airport",
+      "date": "2025-07-27"
+    },
+    "arrival": {
+      "city": "Trivandrum",
+      "time": "17:30",
+      "airport": "Trivandrum International Airport"
+    },
+    "duration": "3h 10m",
+    "rating": 4.1,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 5200
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "6E942",
+    "airline": "IndiGo",
+    "departure": {
+      "city": "Jodhpur",
+      "time": "06:20",
+      "airport": "Jodhpur Airport",
+      "date": "2025-07-28"
+    },
+    "arrival": {
+      "city": "Patna",
+      "time": "08:50",
+      "airport": "Jay Prakash Narayan Airport"
+    },
+    "duration": "2h 30m",
+    "rating": 4.2,
+    "image": "/assets/indigo.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4650
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "AI832",
+    "airline": "Air India",
+    "departure": {
+      "city": "Amritsar",
+      "time": "09:00",
+      "airport": "Sri Guru Ram Dass Jee International Airport",
+      "date": "2025-07-28"
+    },
+    "arrival": {
+      "city": "Vizag",
+      "time": "11:40",
+      "airport": "Visakhapatnam Airport"
+    },
+    "duration": "2h 40m",
+    "rating": 4.4,
+    "image": "/assets/airIndia.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 5150
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "UK822",
+    "airline": "Vistara",
+    "departure": {
+      "city": "Kanpur",
+      "time": "13:15",
+      "airport": "Kanpur Airport",
+      "date": "2025-07-28"
+    },
+    "arrival": {
+      "city": "Kochi",
+      "time": "16:25",
+      "airport": "Cochin International Airport"
+    },
+    "duration": "3h 10m",
+    "rating": 4.3,
+    "image": "/assets/vistara.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 5300
+        }
+      }
+    }
+  },
+  {
+    "flightNumber": "SG763",
+    "airline": "SpiceJet",
+    "departure": {
+      "city": "Gwalior",
+      "time": "17:50",
+      "airport": "Rajmata Vijaya Raje Scindia Airport",
+      "date": "2025-07-28"
+    },
+    "arrival": {
+      "city": "Mangalore",
+      "time": "20:20",
+      "airport": "Mangalore International Airport"
+    },
+    "duration": "2h 30m",
+    "rating": 4.1,
+    "image": "/assets/spicejet.jpg",
+    "classStatus": {
+      "economy": {
+        "class": "Economy",
+        "price": {
+          "currency": "INR",
+          "amount": 4800
+        }
+      }
+    }
+  }
+]
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+.flight-card {
+  display: flex;
+  align-items: center;
+  border: 1.5px solid #d0d7de;
+  border-radius: 10px;
+  padding:20px 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  
+  background-color: #ffffff;
+
+  transition: transform 0.2s ease-in-out;
+  margin: 10px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+} 
+.flight-page {
+  background-image: url("/public/assets/flight.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ 
+
+.flight-card:hover {
+  transform: translateY(-3px);
+}
+
+.flight-image {
+  width: 160px;       /* ⬅️ was 120px */
+  height: 110px;      /* ⬅️ was 90px */
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.flight-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  flex: 1;
+  font-size: 14px;
+  color: #333;
+}
+
+.flight-airline {
+  font-weight: bold;
+  font-size: 18px;
+  color: #007bff;
+  min-width: 100px;
+}
+
+.flight-block {
+  display: flex;
+  flex-direction: column;
+  min-width: 90px;
+  align-items: center;
+}
+
+.flight-block-title {
+  font-weight: bold;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.flight-block-value {
+  font-size: 14px;
+  color: #444;
+}
+
+.flight-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.book-btn {
+  padding: 6px 14px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}

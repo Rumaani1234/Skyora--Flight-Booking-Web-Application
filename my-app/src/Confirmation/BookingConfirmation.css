@@ -1,0 +1,392 @@
+/* Main Container */
+.confirmation-container {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(to right, #f5f7fa, #e0ecf8);
+  padding: 40px 20px;
+  color: #333;
+}
+
+.content-box {
+  background: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  max-width: 850px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Header */
+.header {
+  background: #00bcd4;
+  padding: 18px 25px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.header h2 {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+  letter-spacing: 0.6px;
+}
+
+/* Confirmation Header */
+.confirmation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.confirmation-header h1 {
+  font-size: 26px;
+  background-color: #e8f5e9;
+  padding: 12px 20px;
+  border-left: 6px solid #00bcd4;
+  border-radius: 6px;
+  margin: 0;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+/* Greeting and Email Note */
+.greeting {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Booking Reference */
+.booking-reference {
+  background: linear-gradient(to right, #ffe3ee, #ffffff);
+  border-left: 5px solid #f06292;
+  padding: 14px 20px;
+  border-radius: 8px;
+  margin: 25px 0;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.link-text {
+  color: #1976d2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Insurance Box */
+.insurance-box {
+  background: #f9f9f9;
+  padding: 12px 18px;
+  margin-top: 25px;
+  border-left: 4px solid #999;
+  border-radius: 6px;
+  font-size: 13.5px;
+}
+
+/* Payment Receipt */
+.payment-info {
+  flex: 1;
+  background: #f7fbff;
+  padding: 18px;
+  border: 1px solid #cfe0ef;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.receipt-heading {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.card-logo {
+  width: 55px;
+  display: block;
+  margin: 15px auto; /* 👈 This centers the image horizontally */
+}
+
+
+.card-number {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.total-charge {
+  font-size: 15px;
+  margin: 15px 0;
+}
+
+.total-charge strong {
+  font-size: 18px;
+  color: #333;
+}
+
+.fare-breakup {
+  text-align: left;
+  margin-top: 12px;
+  font-size: 13.5px;
+}
+
+.fare-breakup p {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+/* Cleartrip Logo */
+.cleartrip-logo {
+  font-weight: bold;
+  font-size: 16px;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tick-icon {
+  font-size: 22px;
+  color: green;
+}
+
+/* Main Grid for Payment + Traveller Detail */
+.booking-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* Flight Info — now used as Traveller Details */
+.flight-info {
+  flex: 1;
+}
+
+.flight-info p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.flight-info p:first-child {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+/* Bottom Grid — Travellers + Journey Details */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.white-box {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.white-box h3,
+.white-box p {
+  margin: 8px 0;
+  font-size: 14.5px;
+}
+
+.travellers {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+  border-left: 5px solid #00bcd4;
+  z-index: 1;
+}
+
+.travellers::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  width: 20px;
+  height: 8px;
+  border-radius: 10px 10px 0 0;
+  z-index: -1;
+}
+
+.travellers p {
+  font-size: 15px;
+  margin: 6px 0;
+  color: #333;
+}
+
+.travellers p:first-child {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #0d47a1;
+}
+
+.highlight-label {
+  font-size: 15.5px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.white-box h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d47a1;
+  margin-bottom: 14px;
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 6px;
+}
+
+
+
+/* Footer */
+footer {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.footer-note {
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Loader */
+.confirmation-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  background-color: #f2f7fb;
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #dfeaf3;
+  border-top: 6px solid #00bcd4;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+
+
+  .payment-info,
+  .white-box {
+    margin-top: 20px;
+  }
+
+  .traveller-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  background-color: #f4f4f4;
+  padding: 8px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.traveller-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.traveller-details-heading,
+.traveller-details-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 10px 0;
+  padding: 5px 0;
+  font-size: 16px;
+}
+
+.traveller-details-heading {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

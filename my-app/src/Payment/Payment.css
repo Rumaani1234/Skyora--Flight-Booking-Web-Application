@@ -1,0 +1,220 @@
+/* Wrapper */
+.payment-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f3f9ff;
+  min-height: 100vh;
+}
+
+/* Card */
+.payment-card {
+  background: white;
+  padding: 40px;
+  width: 550px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.payment-card > *:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+/* Title */
+.payment-title {
+  text-align: center;
+  color: #007bff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Flight Info */
+.flight-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.flight-img-oval {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #007bff;
+}
+
+.flight-details p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Amount Section */
+.amount-section {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Payment Methods */
+.payment-methods h4 {
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #333;
+  font-size: 17px;
+}
+
+.methods {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Each payment option box */
+.icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  width: fit-content;
+  border: 1px solid #cce4ff;
+}
+
+.icon-btn:hover {
+   background-color: white;
+}
+
+/* Icon style without circle */
+.custom-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Just color text icons (no background, no circle) */
+.paytm-icon {
+  color: #00baf2;
+}
+
+.gpay-icon {
+  color: #34a853;
+}
+
+.phonepe-icon {
+  color: #6f42c1;
+}
+
+.debit-icon {
+  color: #2980b9;
+}
+
+.credit-icon {
+  color: #8e44ad;
+}
+
+.icon-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+/* Success Box */
+.success-box {
+  padding: 12px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 8px;
+  color: #155724;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal Box */
+.modal-box {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  width: 320px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal-box input {
+  width: 100%;
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline-color: #007bff;
+}
+
+.modal-box button {
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn {
+  background-color: #dc3545;
+  margin-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
