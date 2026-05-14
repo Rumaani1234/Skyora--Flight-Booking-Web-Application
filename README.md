@@ -65,7 +65,7 @@ User Registration/Login → Search Flights → Select Flight → Enter Details �
 ![Booking Confirmation](confirmation.png)
 
 ### Confirmation page
-![Final Confirmation](confirmation-page.png)
+![Final Confirmation](confirmation -page.png)
 
 ## Future Improvements.
 
