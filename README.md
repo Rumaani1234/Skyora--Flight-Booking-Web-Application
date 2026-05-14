@@ -47,7 +47,7 @@ User Registration/Login → Search Flights → Select Flight → Enter Details �
 ![Login Page](login.png)
 
 ### Flight Search Page
-![Flight Search Page](search.png)
+![Flight Search Page](search-flight.png)
 
 ### Flight Details Page
 ![Flight Details Page](details.png)
