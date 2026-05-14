@@ -50,19 +50,19 @@ User Registration/Login → Search Flights → Select Flight → Enter Details �
 ![Flight Search Page](search-flight.png)
 
 ### Flight Details Page
-![Flight Details Page](details.png)
+![Flight Details Page](flight- details search.png)
 
 ### Booking Page
-![Booking Page](booking.png)
+![Booking Page](booking - form.png)
 
 ### Aadhaar Verification Page
-![Aadhaar Verification Page](aadhar.png)
+![Aadhaar Verification Page](Aadhaar-verification.png)
 
 ### Payment Page
 ![Payment Page](payment.png)
 
 ### Booking Confirmation 
-![Booking Confirmation](confirmation.png)
+![Booking Confirmation](booking- confirmation.png)
 
 ### Confirmation page
 ![Final Confirmation](confirmation -page.png)
