@@ -50,7 +50,7 @@ User Registration/Login → Search Flights → Select Flight → Enter Details �
 ![Flight Search Page](search-flight.png)
 
 ### Flight Details Page
-![Flight Details Page](flight details search.png)
+![Flight Details Page](flight-details-search.png)
 
 ### Booking Page
 ![Booking Page](booking - form.png)
